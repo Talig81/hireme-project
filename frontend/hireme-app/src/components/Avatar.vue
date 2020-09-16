@@ -1,6 +1,6 @@
 <template>
    <v-row>
-     <v-col>
+     <v-col class="pa-0">
        <v-card
               class="ma-0 pa-0"
               height="460vh"

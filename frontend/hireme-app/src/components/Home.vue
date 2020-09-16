@@ -1,8 +1,10 @@
 <template>
-  <v-container >
-      <v-row >
-          <v-col cols="12">
+  <v-container fluid fill-height class="cenas pa-0" >
+      <v-row class="row1 pa-0">
+          <v-col class="pa-0" cols="12">
+              <v-row :align="self">
                <Avatar/>
+              </v-row>
           </v-col>
       </v-row>
   </v-container>
@@ -21,12 +23,14 @@ export default {
 
 <style scoped>
 .cenas{
-    color:lightcoral;
+    background-color:lightcoral;
+    align-items: flex-start;
 }
 .cont1{
-    background-color: black
+    background-color: black;
     }
 .row1{
-    background-color: white
+    background-color: white;
+
 }
 </style>

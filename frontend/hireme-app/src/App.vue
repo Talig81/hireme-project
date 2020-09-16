@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <Avatar/>
+      <Home/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Avatar from './components/Avatar';
+import Home from './components/Home';
 
 export default {
   name: 'App',
 
   components: {
-    Avatar,
+    Home,
   },
 
   data: () => ({
